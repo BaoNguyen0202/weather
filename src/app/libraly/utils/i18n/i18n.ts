@@ -19,6 +19,7 @@ i18n
   .use(languageDetector)
   .use(initReactI18next)
   .init({
+    compatibilityJSON: 'v3',
     fallbackLng: 'vi_VN',
 
     resources: resources,
